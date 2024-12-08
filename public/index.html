@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Predictions</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Tech Predictions</h1>
+    <p>Get insights and forecasts for any technology</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Enter a Technology</h2>
+      <input type="text" id="tech-input" placeholder="e.g., Artificial Intelligence">
+      <button id="fetch-predictions">Fetch Predictions</button>
+    </section>
+
+    <section id="results" class="hidden">
+      <h2>Predictions</h2>
+      <div id="predictions-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Tech Predictions | Made with ♥ by Abhijith</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
